@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-
+//1
 contract cINO is ERC721, Ownable {
 
     using Counters for Counters.Counter;
@@ -57,13 +57,13 @@ contract cNftSale is IERC721Receiver, Ownable {
 
 }
 
-//
+//2
 contract cNft is ERC721, Ownable {
 
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    uint256 constant public cost = 0.1 ether;
+    uint256 constant public cost = 0.5 ether;
 
     constructor() public ERC721("CHRONSTATE INO", "cINO") {}
 
