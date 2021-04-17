@@ -1,2 +1,2 @@
-# ino-contract
-The offcicial public chronstate Initial NFT Offering contract
+# contracts
+Chronstate contracts repository
